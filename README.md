@@ -8,8 +8,8 @@
 
 | | URL |
 |-|-----|
-| Frontend | https://your-app.vercel.app *(update after deploy)* |
-| API | https://your-app.railway.app *(update after deploy)* |
+| Frontend | https://real-time-room-occupancy-dashboard-4pmy03rju.vercel.app |
+| API | https://real-time-room-occupancy-dashboard.onrender.com |
 | Credentials | `admin` / `admin123` |
 
 ---
