@@ -1,6 +1,9 @@
 # PLAN.md — What's Next
 
-Current state: ✅ Phase 1 complete — app verified end-to-end, screenshot in README.
+Current state: ✅ Phases 1–3 complete — app verified, deployed to Render + Vercel, WebSocket reconnect live.
+
+🔗 Frontend: https://real-time-room-occupancy-dashboard-4pmy03rju.vercel.app
+🔗 API: https://real-time-room-occupancy-dashboard.onrender.com
 
 ---
 
