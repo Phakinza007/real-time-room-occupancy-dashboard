@@ -2,8 +2,7 @@
 
 > Mini Smart Building dashboard ที่ simulate sensor data และแสดง occupancy แบบ real-time ผ่าน WebSocket พร้อม LINE alert เมื่อคนเกิน threshold
 
-<!-- Replace with actual screenshot/GIF after first run -->
-<!-- ![Dashboard Screenshot](docs/screenshot.png) -->
+![Dashboard Screenshot](docs/screenshot.png)
 
 ---
 

@@ -1,22 +1,18 @@
 # PLAN.md — What's Next
 
-Current state: MVP complete, code on GitHub, dependencies installed, not yet deployed.
+Current state: ✅ Phase 1 complete — app verified end-to-end, screenshot in README.
 
 ---
 
-## Phase 1 — Verify & Screenshot (do this now, 30 min)
+## Phase 1 — Verify & Screenshot ✅ DONE
 
-**Goal:** confirm the app runs end-to-end before showing anyone.
-
-- [ ] `npm run dev` from project root — both server + client start
-- [ ] Login with `admin` / `admin123` — redirects to dashboard
-- [ ] Chart updates every 3 s without page refresh
-- [ ] StatusBadge flips red when count > 10
-- [ ] Console shows LINE fallback log (no token = console.log, not crash)
-- [ ] Take a screenshot or screen-record a GIF of the dashboard
-- [ ] Drop image into `docs/screenshot.png` and uncomment the line in README
-
-**Deliverable:** README has a real screenshot.
+- [x] Server + client both start
+- [x] Login with `admin` / `admin123` → redirects to dashboard
+- [x] Chart updates every 3 s via WebSocket (confirmed live in browser)
+- [x] StatusBadge shows green ✓ Normal / red ⚠ Over Limit
+- [x] LINE fallback logs to console when no token configured
+- [x] Screenshot saved to `docs/screenshot.png`
+- [x] README updated with real screenshot
 
 ---
 
