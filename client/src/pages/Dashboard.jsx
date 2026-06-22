@@ -17,7 +17,8 @@ export default function Dashboard() {
     const token = localStorage.getItem('token')
     if (!token) { navigate('/'); return }
 
-    const ws = new WebSocket(`ws://localhost:3001?token=${token}`)
+    const wsUrl = import.meta.env.VITE_WS_URL || 'ws://localhost:3001'
+    const ws = new WebSocket(`${wsUrl}?token=${token}`)
     wsRef.current = ws
 
     ws.onopen = () => setConnected(true)
