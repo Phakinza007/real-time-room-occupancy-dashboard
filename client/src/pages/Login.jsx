@@ -13,7 +13,8 @@ export default function Login() {
     setError('')
     setLoading(true)
     try {
-      const res = await fetch('/api/login', {
+      const base = import.meta.env.VITE_API_URL || ''
+      const res = await fetch(`${base}/api/login`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ username, password }),

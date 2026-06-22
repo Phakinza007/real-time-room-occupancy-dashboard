@@ -4,6 +4,14 @@
 
 ![Dashboard Screenshot](docs/screenshot.png)
 
+## Live Demo
+
+| | URL |
+|-|-----|
+| Frontend | https://your-app.vercel.app *(update after deploy)* |
+| API | https://your-app.railway.app *(update after deploy)* |
+| Credentials | `admin` / `admin123` |
+
 ---
 
 ## Features

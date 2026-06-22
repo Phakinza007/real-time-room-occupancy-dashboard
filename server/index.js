@@ -8,7 +8,9 @@ const simulator = require('./simulator')
 const { sendAlert } = require('./lineNotify')
 
 const app = express()
-app.use(cors())
+app.use(cors({
+  origin: process.env.CLIENT_ORIGIN || '*',
+}))
 app.use(express.json())
 app.use('/api', authRouter)
 
