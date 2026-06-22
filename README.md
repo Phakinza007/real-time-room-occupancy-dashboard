@@ -24,6 +24,21 @@
 
 ---
 
+## Quick Start
+
+```bash
+git clone https://github.com/Phakinza007/real-time-room-occupancy-dashboard.git
+cd real-time-room-occupancy-dashboard
+npm run install:all
+cp server/.env.example server/.env   # edit JWT_SECRET at minimum
+npm run dev
+# Server → http://localhost:3001
+# Client → http://localhost:5173
+# Login:  admin / admin123
+```
+
+---
+
 ## Tech Stack
 
 | Layer | Tech |
@@ -89,11 +104,9 @@ room-occupancy-dashboard/
 ### 1. Clone & install
 
 ```bash
-git clone https://github.com/<your-username>/room-occupancy-dashboard.git
-cd room-occupancy-dashboard
-
-cd server && npm install && cd ..
-cd client && npm install && cd ..
+git clone https://github.com/Phakinza007/real-time-room-occupancy-dashboard.git
+cd real-time-room-occupancy-dashboard
+npm run install:all
 ```
 
 ### 2. Configure environment
